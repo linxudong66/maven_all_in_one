@@ -55,5 +55,10 @@ public class AllTest {
        JDBCUtils.releaseConnection(connection);
    }
 
+   @Test
+   public void testSubString(){
+      String substring = "aaa.png".substring("aaa.png".lastIndexOf("."));
+      System.out.println("substring = " + substring);
+   }
 
 }
