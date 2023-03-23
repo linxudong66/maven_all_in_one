@@ -27,7 +27,17 @@
         <servlet-name>PortalServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
+    
+    <servlet>
+        <servlet-name>authServlet</servlet-name>
+        <servlet-class>com.maven.court.servlet.module.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>authServlet</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+    
+    
     <filter>
         <filter-name>txFilter</filter-name>
         <filter-class>com.maven.court.filter.TransactionFilter</filter-class>
