@@ -9,5 +9,8 @@
         <module name="maven_all_in_one" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven_all_in_one" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

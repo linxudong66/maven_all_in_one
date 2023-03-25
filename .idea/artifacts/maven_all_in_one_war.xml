@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="maven_all_in_one:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>maven_all_in_one</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="maven_all_in_one-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="maven_all_in_one:war exploded" />
+    </root>
+  </artifact>
+</component>
