@@ -6,7 +6,7 @@
     <style type="text/css">
         table {
             border-collapse: collapse;
-            margin: 0px auto 0px auto;
+            margin: 0 auto 0 auto;
         }
 
         table th, td {
@@ -73,7 +73,7 @@
                 </td>
 
                 <td>
-                    <a th:href="@{/work(method=detail)}">奏折详情</a>
+                    <a th:href="@{/work(method='showMemorialsDetail',memorialsId=${memorials.memorialsId})}">奏折详情</a>
                 </td>
             </tr>
             </tbody>
